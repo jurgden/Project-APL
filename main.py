@@ -2,19 +2,29 @@ import palindrome
 import str2int
 import pystring
 import file2list
+import art 
+import datetime
+import time
+import os
 # 1)  This one liner will be dedicated to reversing lists followed by a palindrome detector
 
 # a = [i+i*2 for i in range(8)]
 # This line below completely reverses our list from front to back
 # a = a[::-1]
 # End of our one liner 
-
+print(str(datetime.datetime.now()))
+art.tprint('coolKIT', font='roman')
+time.sleep(2.2)
+os.system('clear')
+art.tprint('-JJ  Futures')
+time.sleep(1)
+os.system('clear')
 def main():
-  
-  xx01 = input('Start up home menu? Y/N?\n')
+  # 1 for on / 0 for off
+  xx01 = 1
 
-  while xx01 == 'Y':
-    a001 = input('Select your subroutine: [palidrome, str2int, pystring, file2list]\n')
+  while xx01 == 1:
+    a001 = input('Select your subroutine: [palidrome, pystring, file2list]\n')
     if a001 == 'palindrome':
       palindrome.palidrome_search_game()
       a002 = input('Would you like to return to the main menu? Y/N?\n')
@@ -58,9 +68,5 @@ def main():
         a003 = input('Exit program? Y/N?\n')
         if a003 == 'Y':
           break
-      else:
-        break
-
-
 if __name__ == '__main__':
   main()
