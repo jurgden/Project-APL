@@ -33,6 +33,9 @@ def main():
       elif a002 == 'N':
         a003 = input('Exit program? Y/N?\n')
         if a003 == 'Y':
+          art.tprint('Bye!')
+          time.sleep(1.5)
+          os.system('clear')
           break
       else: 
         break
@@ -44,6 +47,9 @@ def main():
       elif a002 == 'N':
         a003 = input('Exit program? Y/N?\n')
         if a003 == 'Y':
+          art.tprint('Bye!')
+          time.sleep(1.5)
+          os.system('clear')
           break
       else: 
         break
@@ -56,6 +62,9 @@ def main():
       elif a002 == 'N':
         a003 = input('Exit program? Y/N?\n')
         if a003 == 'Y':
+          art.tprint('Bye!')
+          time.sleep(1.5)
+          os.system('clear')
           break
       else:
         break
@@ -67,6 +76,9 @@ def main():
       elif a002 == 'N':
         a003 = input('Exit program? Y/N?\n')
         if a003 == 'Y':
+          art.tprint('Bye!')
+          time.sleep(1.5)
+          os.system('clear')
           break
 if __name__ == '__main__':
   main()
